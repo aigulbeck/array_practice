@@ -13,3 +13,10 @@ console.log(pages);
 // Reverse method return a copy of the array in exact opposite order.
 var isHungry = [true, true, false, true].reverse();
 console.log(isHungry);
+
+// Index position is an order of one element in the array. Count starts from left to right, starting from 0, inccrementing by 1.
+// Following is the example of calling the index position of first element in the array. 
+// Expected output is Monica
+
+var friends = ["Monica", "Joey", "Rachel", "Ross"];
+console.log(friends[0]);
